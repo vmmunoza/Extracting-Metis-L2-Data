@@ -6,4 +6,4 @@ This repository provides material to help you extract Metis L2 data by running a
 
 ## 2. Use Web3.js to extract Metis L2 Data.
 
-## Use [] to save this data and visualize it. 
+## 3. Use [] to save this data and visualize it. 
