@@ -87,7 +87,7 @@ Let’s try to make sense of this data using ChatGPT. There's an option for subs
 
 Create the prompt:
 
-`*I've recently acquired a dataset containing information about blockchain blocks, including attributes such as block number, hash, timestamp, and the number of transactions per block. Given an initial review that performs a Data Exploration.*`
+```I've recently acquired a dataset containing information about blockchain blocks, including attributes such as block number, hash, timestamp, and the number of transactions per block. Given an initial review that performs a Data Exploration.```
 
 Here’s how the output looks like
 ![Replica Node](https://github.com/vmmunoza/Extracting-Metis-L2-Data/blob/main/Images/05.jpg)
