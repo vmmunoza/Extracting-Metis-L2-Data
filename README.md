@@ -95,6 +95,8 @@ Here’s how the output looks like
 
 Finally, let’s ask GPT to give us more information and to create a series of visualizations to better understand this data:
 
+<span style="background-color: #FFFF00">Marked text</span>
+
 “Create a series of visualizations that help me better understand this data.”
 
 You'll see the following graphics 
