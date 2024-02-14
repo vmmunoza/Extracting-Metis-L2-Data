@@ -101,5 +101,6 @@ You'll see the following graphics
 
 ![Replica Node](https://github.com/vmmunoza/Extracting-Metis-L2-Data/blob/main/Images/06.jpg) 
 
+Alternatively, if you want you can use python to do some exploratory data analysis and visualization. I left a script `EDA.py` that you can use for this purpose.
 
-That's all for now. I hope you got a basic understanding on how to run a Metis node, extract blockchain data and save it for further analysis and visualization. 
+That's all for now, I hope you got a basic understanding on how to run a Metis node, extract blockchain data and save it for further analysis and visualization. 
