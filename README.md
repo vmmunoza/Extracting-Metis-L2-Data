@@ -95,9 +95,9 @@ Here’s how the output looks like
 
 Finally, let’s ask GPT to give us more information and to create a series of visualizations to better understand this data:
 
-==Marked text==
-
-“Create a series of visualizations that help me better understand this data.”
+``` Create a series of visualizations that help me better understand this data ```
 
 You'll see the following graphics 
 ![Replica Node](https://github.com/vmmunoza/Extracting-Metis-L2-Data/blob/main/Images/06.jpg)
+
+That's all for now. I hope you got a basic understanding on how to run a Metis node, extract blockchain data and save it for further analysis and visualization. 
