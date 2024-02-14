@@ -67,7 +67,17 @@ You should see something like this on the terminal
 
 ![Replica Node](https://github.com/vmmunoza/Extracting-Metis-L2-Data/blob/main/Images/03.jpg)
 
-(The name of the script in the screenshot is index.js but is the same as data_explorer.js )
+(The name of the script in the screenshot is index.js but is the same as data_explorer.js ).
+
+From here, you should explore different possibilities to extract the desirable data for your purpose.
+
+I have prepared scripts that help you fetch a range of blocks, and extract key information such as block number, hash, timestamp, and the number of transactions in each block.
+
+I encourage you to check the `fetch_print.js` for this. 
+
+In addition, you might want to add an extra functionality that allows you to save fetched blockchain data. I have created the `fetch_save.js` script to help fetch the data into a file named blockchainData.json. 
+
+That look like this:
 
 ![Replica Node](https://github.com/vmmunoza/Extracting-Metis-L2-Data/blob/main/Images/04.jpg)
 
