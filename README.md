@@ -87,9 +87,15 @@ Let’s try to make sense of this data using ChatGPT. There's an option for subs
 
 Create the prompt:
 
-*I've recently acquired a dataset containing information about blockchain blocks, including attributes such as block number, hash, timestamp, and the number of transactions per block. Given an initial review that performs a Data Exploration.*
+`*I've recently acquired a dataset containing information about blockchain blocks, including attributes such as block number, hash, timestamp, and the number of transactions per block. Given an initial review that performs a Data Exploration.*`
 
 Here’s how the output looks like
 ![Replica Node](https://github.com/vmmunoza/Extracting-Metis-L2-Data/blob/main/Images/05.jpg)
 
+
+Finally, let’s ask GPT to give us more information and to create a series of visualizations to better understand this data:
+
+“Create a series of visualizations that help me better understand this data.”
+
+You'll see the following graphics 
 ![Replica Node](https://github.com/vmmunoza/Extracting-Metis-L2-Data/blob/main/Images/06.jpg)
