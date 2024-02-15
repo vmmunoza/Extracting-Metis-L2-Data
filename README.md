@@ -82,7 +82,7 @@ That information should look like this:
 
 ## 3. Use GPT to visualize the blockchain data 
 
-Let’s try to make sense of this data using ChatGPT. There is an option for the subscriber to use the GPT data analysis feature which can perform all types of analysis with data sets in different formats. If you don't want to pay but still want to use AI for this, I recommend using ![Julius AI]( https://julius.ai/)
+Let’s try to make sense of this data using ChatGPT. There is an option for the subscriber to use the GPT data analysis feature which can perform all types of analysis with data sets in different formats. If you don't want to pay but still want to use AI for this, I recommend using [Julius AI]( https://julius.ai/)
 
 Create the prompt:
 
