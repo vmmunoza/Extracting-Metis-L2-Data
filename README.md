@@ -1,47 +1,48 @@
 # Extracting-Metis-L2-Data
 
-This repository provides material to help you extract data from Metis L2 by running a replica node and using the Web3.js library. It will also shows how to use GPT to visualize this blockchain data.
+This repository provides material to help you extract data from Metis L2 blockchain by running a replica node and using the Web3.js library to extract and save the data. 
+It also shows how to use GPT to visualize this blockchain data.
 
 ## 1. Run a replica node
 
-Replica node does XXXX:
+Replica node provides a comprehensive toolkit for deploying, configuring, and managing Metis blockchain nodes. 
 
-First step is to clone the repo:
+The first step is to clone the repo:
 
 `git clone https://github.com/ericlee42/metis-replica-node`
  
 
-Make sure you satisfy the requirements:
+Make sure you are able to satisfy the requirements:
 
 - Linux(x86_64)
 
 - Docker (can be downloaded here: https://docs.docker.com/engine/install/)
 
-If you have Windows make sure you have WSL 2 and Docker Desktop enables:
+If you have Windows make sure you have WSL 2 and Docker Desktop enabled:
 
 https://docs.docker.com/desktop/wsl/#turn-on-docker-desktop-wsl-2
 
-Then update config :
+Next update the config to start your Metis mainnet node with minimal configuration steps and adhere to Docker Compose's default behavior :
 
 `cp docker-compose-mainnet.yml docker-compose.yml`
 
-Then run docker:
+Then run Docker:
 
 `docker compose up -d`
 
-You should see this on terminal if everything is working
+You should see this on your terminal if everything is working properly
 
 ![Replica Node](https://github.com/vmmunoza/Extracting-Metis-L2-Data/blob/main/Images/01.jpg)
 
-You can check the logs from l2geth on Docker Desktop, you'll see this:
+You can check the logs from l2geth on Docker Desktop, you'll see something that looks like this:
 
 ![Replica Node](https://github.com/vmmunoza/Extracting-Metis-L2-Data/blob/main/Images/02.jpg)
 
-## 2. Use Web3.js to extract Metis L2 Data
+## 2. Use web3.js to extract Metis L2 Data
 
-You can do this in several ways, like and web3.JS
+There are several ways to extract and fetch data now that your node is running. The most common way is to use JSON-RPC. Tools and libraries like web3.py (for Python), Nethereum (for .NET), and web3.js (for JavaScript) can interact with the node to fetch data. 
 
-We’ll use this last one so make sure to check the documentation first: 
+We'll use web3.js so make sure to check the documentation first: 
 
 https://docs.web3js.org/ 
 
@@ -67,23 +68,21 @@ You should see something like this on the terminal
 
 ![Replica Node](https://github.com/vmmunoza/Extracting-Metis-L2-Data/blob/main/Images/03.jpg)
 
-(The name of the script in the screenshot is index.js but is the same as data_explorer.js ).
+( Note that the name of the script in the screenshot is index.js but is the same as data_explorer.js ).
 
 From here, you should explore different possibilities to extract the desirable data for your purpose.
 
-I have prepared scripts that help you fetch a range of blocks, and extract key information such as block number, hash, timestamp, and the number of transactions in each block.
-
-I encourage you to check the `fetch_print.js` for this. 
+I have prepared scripts that help you fetch a range of blocks, and extract key information such as block number, hash, timestamp, and the number of transactions in each block. I encourage you to check the `fetch_print.js` for this. 
 
 In addition, you might want to add an extra functionality that allows you to save fetched blockchain data. I have created the `fetch_save.js` script to help fetch the data into a file named blockchainData.json. 
 
-That look like this:
+That information should look like this:
 
 ![Replica Node](https://github.com/vmmunoza/Extracting-Metis-L2-Data/blob/main/Images/04.jpg)
 
 ## 3. Use GPT to visualize the blockchain data 
 
-Let’s try to make sense of this data using ChatGPT. There's an option for subscriber to use the GPT Data Analysis, that can perform all kinds of analysis with data sets on different formats.
+Let’s try to make sense of this data using ChatGPT. There is an option for the subscriber to use the GPT data analysis feature which can perform all types of analysis with data sets in different formats. If you don't want to pay but still want to use AI for this, I recommend using ![Julius AI]( https://julius.ai/)
 
 Create the prompt:
 
